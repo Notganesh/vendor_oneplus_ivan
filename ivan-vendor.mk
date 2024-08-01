@@ -499,6 +499,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
     vendor/oplus/ivan/proprietary/odm/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib/libtflite_mtk_static.so \
     vendor/oplus/ivan/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib/libwvhdcpext.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
@@ -610,6 +611,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhdcpext.so \
     vendor/oplus/ivan/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.nxp.eventprocessor@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.nxp.nxpnfc@1.0.so \
