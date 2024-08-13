@@ -3378,7 +3378,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Professional_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Professional_Preview.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_RHDR_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_RHDR_Face_Capture.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_RHDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_RHDR_Scene_Capture.so \
-0    vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_MFNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_MFNR.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_Single.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_Single.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_SuperNight_Hand_Capture.so \
@@ -4386,7 +4386,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \	
+    vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.7.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
@@ -4403,7 +4403,7 @@ PRODUCT_PACKAGES += \
     mediatek-common \
     mediatek-framework \
     mediatek-gwsd \
-    mediatek-gwsdv2a\
+    mediatek-gwsdv2 \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
