@@ -512,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
-    vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.wifi@1.1.so \
     vendor/oplus/ivan/proprietary/odm/lib64/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.capacitive.hal.so \
     vendor/oplus/ivan/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/oplus/ivan/proprietary/odm/lib64/ese_client.so:$(TARGET_COPY_OUT_ODM)/lib64/ese_client.so \
@@ -628,7 +627,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
-    vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.wifi@1.1.so \
     vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/01010000000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/01010000000000000000000000000000.tabin \
     vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
     vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
@@ -3380,7 +3378,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Professional_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Professional_Preview.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_RHDR_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_RHDR_Face_Capture.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_RHDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_RHDR_Scene_Capture.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture.so \
+0    vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_MFNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_MFNR.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_Single.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_Scene_Capture_64M_Single.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_imx581mipiraw_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_imx581mipiraw_SuperNight_Hand_Capture.so \
@@ -4388,7 +4386,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \	
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.7.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
@@ -4396,18 +4394,16 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
-    libwifi-hal-mtk \
     HotwordEnrollmentOKGoogleRISCV \
     mediatek-common \
     mediatek-framework \
     mediatek-gwsd \
-    mediatek-gwsdv2 \
+    mediatek-gwsdv2a\
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
@@ -4421,17 +4417,10 @@ PRODUCT_PACKAGES += \
     oplus-framework \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
-    android.hardware.usb@1.2-service-mediatek \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    gnss-mtk \
     lbs_hidl_service@1.0 \
-    manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
     manifest_media_c2_V1_1_default \
-    oplus_wifi_supplicant_device \
     manifest_oplusSensor \
     manifest_oplus_charger \
-    manifest_oplus_fingerprint \
-    manifest_oplus_orms
+    manifest_oplus_fingerprint
