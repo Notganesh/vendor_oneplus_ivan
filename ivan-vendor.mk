@@ -2712,7 +2712,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/ov64b_mipi_raw21851_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw21851_tuning.so \
     vendor/oplus/ivan/proprietary/vendor/lib/ov64b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_IdxMgr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/ov64b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_tuning.so \
-    vendor/oplus/ivan/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
@@ -4334,7 +4333,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/ov64b_mipi_raw21851_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw21851_tuning.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/ov64b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw_IdxMgr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/ov64b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw_tuning.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
