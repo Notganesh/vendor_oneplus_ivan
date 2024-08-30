@@ -341,11 +341,28 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/wifisar.map:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifisar.map \
-    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20181/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20181/oplus_vooc_fw_op10.bin \
-    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20355/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20355/oplus_vooc_fw_op10.bin \
-    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21851/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21851/oplus_vooc_fw_rk826.bin \
-    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21876/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21876/oplus_vooc_fw_rk826.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20171/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20353/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20615/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20615/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20662/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20662/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21015/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21015/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21127/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21127/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21127/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21127/oplus_vooc_fw_rk826.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21217/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21217/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21305/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21305/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21305/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21305/oplus_vooc_fw_rk826.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21609/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21609/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21651/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21651/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21881/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21881/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21881/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21881/oplus_vooc_fw_rt5125.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21882/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21882/oplus_vooc_fw_op10.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/21882/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21882/oplus_vooc_fw_rt5125.bin \
     vendor/oplus/ivan/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
+    vendor/oplus/ivan/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
     vendor/oplus/ivan/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oplus/ivan/proprietary/odm/firmware/tp/19357/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19357/FW_GT9886_SAMSUNG.img \
     vendor/oplus/ivan/proprietary/odm/firmware/tp/19357/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19357/FW_GT9886_SAMSUNG_FAE.img \
