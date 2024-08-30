@@ -341,6 +341,11 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/wifisar.map:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifisar.map \
+    vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic_170_soft.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170_soft.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic_235.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235.bin \
+    vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic_235_19161.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235_19161.bin \
     vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20171/oplus_vooc_fw_op10.bin \
     vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20353/oplus_vooc_fw_op10.bin \
     vendor/oplus/ivan/proprietary/odm/firmware/fastchg/20615/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20615/charging_thermal_config_default.txt \
