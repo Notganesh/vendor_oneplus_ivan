@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
+    vendor/oplus/ivan/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oplus/ivan/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/oplus/ivan/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
     vendor/oplus/ivan/proprietary/odm/lib/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib/libFilterWrapper.so \
@@ -54,9 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
     vendor/oplus/ivan/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/oplus/ivan/proprietary/odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service \
-    vendor/oplus/ivan/proprietary/odm/bin/iwpriv_vendor:$(TARGET_COPY_OUT_ODM)/bin/iwpriv_vendor \
-    vendor/oplus/ivan/proprietary/odm/bin/mtkftm:$(TARGET_COPY_OUT_ODM)/bin/mtkftm \
-    vendor/oplus/ivan/proprietary/odm/bin/rpmbengclient_test:$(TARGET_COPY_OUT_ODM)/bin/rpmbengclient_test \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions_vext.xml \
@@ -264,55 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/audio/nxp/VoIP_usbmic_usb_game.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/VoIP_usbmic_usb_game.bin \
     vendor/oplus/ivan/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
-    vendor/oplus/ivan/proprietary/odm/etc/bin/gauge_authenticate:$(TARGET_COPY_OUT_ODM)/etc/bin/gauge_authenticate \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01:$(TARGET_COPY_OUT_ODM)/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/CameraHalconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/CameraHalconfig.json \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/gc02m1b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc02m1b \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/ov02b10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b10 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_2 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_3 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_4 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_5 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_6 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_7 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_8 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_9 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/list.txt \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/s_curve_lut \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_0 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_2 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_3 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_4 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_5 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_6 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/oplus/ivan/proprietary/odm/etc/ecc_list.xml:$(TARGET_COPY_OUT_ODM)/etc/ecc_list.xml \
-    vendor/oplus/ivan/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
-    vendor/oplus/ivan/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -335,10 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oplus/ivan/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
-    vendor/oplus/ivan/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
     vendor/oplus/ivan/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
-    vendor/oplus/ivan/proprietary/odm/etc/temperature_profile/sys_high_temp_protect_21876.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_high_temp_protect_21876.xml \
-    vendor/oplus/ivan/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/oplus/ivan/proprietary/odm/etc/wifi/wifisar.map:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifisar.map \
     vendor/oplus/ivan/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
@@ -646,21 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/01010000000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/01010000000000000000000000000000.tabin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/05060000000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/05060000000000000000000000000000.tabin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/05070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/05070000000000000000000000000000.drbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/070f0000000000000000000000000a0a.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/070f0000000000000000000000000a0a.tlbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/08010203000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/08010203000000000000000000000000.tabin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/09060000000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09060000000000000000000000000000.tabin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/09070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09070000000000000000000000000000.drbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin \
-    vendor/oplus/ivan/proprietary/odm/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin \
-    vendor/oplus/ivan/proprietary/system/lib/librtp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librtp_jni.so \
-    vendor/oplus/ivan/proprietary/system/lib64/librtp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librtp_jni.so \
     vendor/oplus/ivan/proprietary/system_ext/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuron_graph_delegate.mtk.so \
     vendor/oplus/ivan/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/oplus/ivan/proprietary/system_ext/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_graph_delegate.mtk.so \
@@ -712,7 +644,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/oplus/ivan/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/oplus/ivan/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/oplus/ivan/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/oplus/ivan/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/oplus/ivan/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/oplus/ivan/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
