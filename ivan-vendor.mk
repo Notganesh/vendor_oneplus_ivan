@@ -2637,11 +2637,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
-    vendor/oplus/ivan/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/oplus/ivan/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libdpframework.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libmtk_drvb.so \
@@ -4250,13 +4248,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/oplus/ivan/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libdpframework.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libmcv_runtime.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmcv_runtime.mtk.so \
