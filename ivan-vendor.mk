@@ -4350,6 +4350,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
+    ImsService \
     HotwordEnrollmentOKGoogleRISCV \
     mediatek-common \
     mediatek-framework \
